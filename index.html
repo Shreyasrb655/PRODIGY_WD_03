@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>🎮 Tic Tac Toe</h1>
+
+    <div class="controls">
+      <select id="difficulty">
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard" selected>Hard</option>
+      </select>
+
+      <button id="themeToggle">🌙 Toggle Theme</button>
+    </div>
+
+    <h2 id="status">Your Turn</h2>
+
+    <h3 id="score">You: 0 | AI: 0 | Draw: 0</h3>
+
+    <div class="board" id="board">
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+
+      <!-- Winning Line -->
+      <div id="winLine"></div>
+    </div>
+
+    <button id="restartBtn">Restart</button>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
