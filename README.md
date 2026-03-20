@@ -12,6 +12,3 @@
 - HTML
 - CSS
 - JavaScript
-
-## Screenshot
-(Add screenshot here)
